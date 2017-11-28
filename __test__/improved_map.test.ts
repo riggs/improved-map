@@ -18,8 +18,8 @@ test("Map.prototype.update updates from multiple sources", () => {
 test("Map.prototype.toObject returns the correct object", () => {
     const sym = Symbol();
     /* Typescript's MapConstructor can't handle these types in an array literal */
-    const map = new Map().set('a', 1).set('b', 42).set(0, 0).set(sym, 'symbol');
-    expect(map.toObject()).toEqual({a: 1, b: 42, '0': 0, [sym]: 'symbol'});
+    const map = new Map().set('a', 1).set('b', 42).set(0, 0).set(sym, 'symbol').set(null, null);
+    expect(map.toObject()).toEqual({a: 1, b: 42, '0': 0, [sym]: 'symbol', 'null': null});
 });
 
 test("Map.prototype.pop removes and returns a present value", () => {

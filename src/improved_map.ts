@@ -28,7 +28,7 @@ Map.prototype.toObject = function () {
         if (typeof key === "string" || typeof key === "symbol") {
             result[key] = value;
         } else {
-            result[key.toString()] = value;
+            result[`${key}`] = value;
         }
     }
     return result
