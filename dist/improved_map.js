@@ -16,7 +16,7 @@ Map.prototype.toObject = function () {
             result[key] = value;
         }
         else {
-            result[key.toString()] = value;
+            result[`${key}`] = value;
         }
     }
     return result;

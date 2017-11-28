@@ -2,7 +2,8 @@
   "name": "improved_map",
   "version": "1.0.0",
   "description": "Some trivial convenience methods for Maps",
-  "main": "dist/improved_map.js",
+  "main": "./dist/improved_map.js",
+  "types": "./typings/improved_map.d.ts",
   "scripts": {
     "tsc": "tsc",
     "test": "jest",
@@ -36,7 +37,7 @@
     "Map"
   ],
   "author": "Benjamin Riggs (https://github.com/riggs/)",
-  "license": "MIT",
+  "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/riggs/improved_map/issues"
   },

@@ -1,14 +1,3 @@
-
-interface MapConstructor {
-    assign(target: Map<any, any>, ...sources: Array<Map<any, any> | Array<[any, any]>>): Map<any, any>
-}
-
-interface Map<K, V> {
-    update(...sources: Array<Map<any, any> | Array<[any, any]>>): Map<K, V>
-    toObject(): any
-    pop(key: any, otherwise?: any): any
-}
-
 Map.assign = function (target, ...sources) {
     for (const source of sources) {
         for (const [key, value] of source) {
