@@ -7,6 +7,7 @@ npm install improved_map
 ```
 
 ## API
+Import/require this library to enhance the Map objects. Nothing is exported.
 ### Map.assign(target, ...sources)
 The `Map.assign` method is used to copy key, value pairs from one or more source Maps to the target Map.
 It returns the target Map.
