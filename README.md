@@ -1,9 +1,9 @@
-# improved_map
+# improved-map
 Some trivial convenience methods for Maps.
 
 ## Installation
 ```
-npm install improved_map
+npm install improved-map
 ```
 
 ## API

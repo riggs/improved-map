@@ -29,4 +29,4 @@ Map.prototype.pop = function (key, otherwise) {
     this.delete(key);
     return value;
 };
-//# sourceMappingURL=improved_map.js.map
+//# sourceMappingURL=improved-map.js.map

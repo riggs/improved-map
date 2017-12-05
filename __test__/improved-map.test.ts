@@ -1,5 +1,4 @@
-
-import '../src/improved_map';
+import '../src/improved-map';
 
 test("Map.assign updates target with from multiple sources", () => {
     const map = new Map();

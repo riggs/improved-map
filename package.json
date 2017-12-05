@@ -1,9 +1,9 @@
 {
-  "name": "improved_map",
+  "name": "improved-map",
   "version": "1.0.2",
   "description": "Some trivial convenience methods for Maps",
-  "main": "./dist/improved_map.js",
-  "types": "./typings/improved_map.d.ts",
+  "main": "./dist/improved-map.js",
+  "types": "./typings/improved-map.d.ts",
   "scripts": {
     "tsc": "tsc",
     "test": "jest",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riggs/improved_map.git"
+    "url": "git+https://github.com/riggs/improved-map.git"
   },
   "keywords": [
     "Map"
@@ -39,12 +39,15 @@
   "author": "Benjamin Riggs (https://github.com/riggs/)",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/riggs/improved_map/issues"
+    "url": "https://github.com/riggs/improved-map/issues"
   },
-  "homepage": "https://github.com/riggs/improved_map#readme",
+  "homepage": "https://github.com/riggs/improved-map#readme",
   "devDependencies": {
     "jest": "^21.2.1",
     "ts-jest": "^21.2.3",
     "typescript": "^2.6.2"
-  }
+  },
+  "files": [
+    "./typings/improved-map.d.ts"
+  ]
 }
