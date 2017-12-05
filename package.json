@@ -49,6 +49,7 @@
   },
   "files": [
     "dist/improved-map.js",
+    "dist/improved-map.js.map",
     "typings/improved-map.d.ts"
   ]
 }
