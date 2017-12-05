@@ -48,7 +48,7 @@
     "typescript": "^2.6.2"
   },
   "files": [
-    "./dist/improved-map.js",
-    "./typings/improved-map.d.ts"
+    "dist/improved-map.js",
+    "typings/improved-map.d.ts"
   ]
 }
