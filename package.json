@@ -1,6 +1,6 @@
 {
   "name": "improved-map",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Some trivial convenience methods for Maps",
   "main": "./dist/improved-map.js",
   "types": "./typings/improved-map.d.ts",
