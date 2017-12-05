@@ -50,6 +50,7 @@
   "files": [
     "dist/improved-map.js",
     "dist/improved-map.js.map",
+    "src/improved-map.ts",
     "typings/improved-map.d.ts"
   ]
 }
