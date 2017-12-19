@@ -3,6 +3,7 @@
   "version": "1.0.7",
   "description": "Some trivial convenience methods for Maps",
   "main": "./dist/improved-map.js",
+  "module": "./dist/improved-map.js",
   "types": "./typings/improved-map.d.ts",
   "scripts": {
     "tsc": "tsc",
