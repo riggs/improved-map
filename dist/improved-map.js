@@ -10,7 +10,7 @@ Map.prototype.update = function (...sources) {
     return Map.assign(this, ...sources);
 };
 Map.prototype.toObject = function () {
-    const result = Object.create(null);
+    const result = {};
     for (const [key, value] of this) {
         if (typeof key === "string" || typeof key === "symbol") {
             result[key] = value;

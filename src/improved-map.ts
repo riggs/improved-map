@@ -12,7 +12,7 @@ Map.prototype.update = function (...sources) {
 };
 
 Map.prototype.toObject = function () {
-    const result: any = Object.create(null);
+    const result: any = {};
     for (const [key, value] of this) {
         if (typeof key === "string" || typeof key === "symbol") {
             result[key] = value;
