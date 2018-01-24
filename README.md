@@ -8,6 +8,15 @@ npm install improved-map
 
 ## API
 Import/require this library to enhance the Map objects. Nothing is exported.
+### Map.fromObject(source)
+Returns a new `Map` created from the `source` object's own enumerable property key, value pairs.
+
+**NOTE:** Key, value pairs are added to the `Map` in the order provided by `Object.entries`,
+which is implementation dependent.
+
+**NOTE:** Numeric property keys on an `object` are actually stored as strings,
+and will be added to the `Map` as such, e.g. `Map.fromObject({41: 43}) === new Map().set('41', 43)`.
+
 ### Map.assign(target, ...sources)
 The `Map.assign` method is used to copy key, value pairs from one or more source Maps to the target Map.
 It returns the target Map.

@@ -1,4 +1,5 @@
 interface MapConstructor {
+    fromObject(source: any): Map<any, any>
     assign(target: Map<any, any>, ...sources: Array<Map<any, any> | Array<[any, any]>>): Map<any, any>
 }
 

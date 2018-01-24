@@ -1,5 +1,11 @@
 import '../src/improved-map';
 
+test("Map.fromObject creates the desired Map from an object", () => {
+    const sym = Symbol();
+    const map = Map.fromObject({key: 'value', 41: 43});
+    expect(map).toEqual(new Map().set('key', 'value').set('41', 43))
+});
+
 test("Map.assign updates target with from multiple sources", () => {
     const map = new Map();
     const result = Map.assign(map, new Map([['a', 1], ['b', 2]]), new Map([['a', 42], ['c', 3]]));
